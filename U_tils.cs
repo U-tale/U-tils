@@ -43,6 +43,7 @@ namespace U_tils
 
         public void SetHeroPos(On.HeroController.orig_Update orig, HeroController self)
         {
+            orig(self);
             HeroX = self.transform.position.x;
             HeroY = self.transform.position.y;
             HeroZ = self.transform.position.z;
@@ -50,4 +51,5 @@ namespace U_tils
 
     }
 }
+
 
