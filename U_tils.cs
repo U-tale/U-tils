@@ -25,7 +25,7 @@ namespace U_tils
             }
         }
 
-        public override string GetVersion() => GetType().Assembly.GetName().Version.ToString();
+        public override string GetVersion() => "0.0.0.1";
 
         public U_tilsMod() : base("U_tils")
         {
@@ -50,3 +50,4 @@ namespace U_tils
 
     }
 }
+
